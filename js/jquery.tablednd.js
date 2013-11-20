@@ -536,7 +536,7 @@ window.jQuery.tableDnD = {
         // Call the onDrop method if there is one
         config.onDrop
             && this.originalOrder != this.currentOrder()
-            && $(droppedRow).hide().fadeIn('fast')
+//            && $(droppedRow).hide().fadeIn('fast')
             && config.onDrop(this.currentTable, droppedRow);
 
         this.currentTable = null; // let go of the table too
